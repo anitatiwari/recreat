@@ -1,22 +1,55 @@
 .front{
-background-color: rgb(185, 71, 71);
+background-color: #db524d;
 
 }
-.pomi{
 
-}
 .pomo{
-    background-color: rgb(0, 0, 0,0.3);
-    border-radius: 5%;
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius:5%;
+    background-size: 10%;
+    
+}
+.glass1 {
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius:5%;
+}
+.glass2{
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius:5%;
+}
+.glass3{
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius:5%;
 }
 header ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    padding: 0.5em 1.5em 1.2em 4em ;
-     margin-left: 20rem;
-    margin-right: 20rem;
-    color:wheat;
+  
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+     margin-left: 1em;
+    
+    color:white;
     font-family: sans-serif;
+  
+    float: left;
+    text-align: center;
+    padding: 1px;
+}
+.navbar{
+    padding-left: 12em ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navbar li{
+    margin-left:1.6em;
+    padding: 7px;
+    border-radius: 10%;
+    font-size: 12px;
+   
+    
+}
+.pomi{
+    margin-left: 20rem;
 }
 li{
     list-style: none;
@@ -28,14 +61,20 @@ li{
     
     
 }
+
 .about p{
    
     color: rgb(134, 95, 95);
     font-size: 1.1em;
 }
 .time{
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    
+   
     /* padding: 0.5em 1.5em 1.2em 4em ;
     margin-left: 20rem;
     margin-right: 20rem;
@@ -43,13 +82,22 @@ li{
     font-family: sans-serif; */
     
 }
+.timespan{
+    color:white;
+    font-size: 5em ;
+}
+.time li{
+    margin: 30px;}
 .break{
     padding: 0.5em 1.5em 1.2em 4em ;
     margin-left: 20rem;
     margin-right: 20rem;
-    color:wheat;
+    color:white;
     font-family: sans-serif;
+    background-color: rgba(202, 195, 195, 0.3);
+    border-radius: 1.04em;
 }
+
 .break p{
     font-size: 5rem;
     padding-left: 1.5em;
@@ -63,12 +111,24 @@ button{
 
   
 }
-
-.break{
-    background-color: rgba(202, 195, 195, 0.3);
-    border-radius: 1.04em;
+.time1{
+    display:grid;
+    grid-template-columns: 0.1fr 0.1fr 0.9fr;
+    background-color: rgba(202, 195, 195, 0.3) ;
+    
+    color: rgb(238, 215, 215);
+  padding-left: 7em;
+  padding-right: 7em;
+ 
+    
+}
+b{
+    font-size: 1.2em;
+    color: white;
 
 }
+
+
 .task1{
     margin-left: 20rem;
     margin-right: 20rem;
@@ -86,11 +146,7 @@ color: cornsilk;
     color: whitesmoke;
     
 }
-.est{
-    background-color: rgba(202, 195, 195, 0.3) ;
-    padding: 2.5%;
-    color: rgb(238, 215, 215);
-}
+
 
 .task{
     font-size: 1.2em;
@@ -118,11 +174,15 @@ color: cornsilk;
 .list3{
     background-color:rgba(22, 8, 8, 0.3);
     border-radius: 10px;
-    border-style: dotted;
-    border-color: rgba(150, 146, 146, 0.6);
+    border-style:dotted;
+    border-color: rgba(185, 181, 181, 0.6);
     color: cornsilk;
+    
+    
+
         
 }
+
 .list0{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -135,12 +195,9 @@ color: cornsilk;
     margin:  0 45%  0 45%;
 
 }
-@media only screen and (max-width: 600px) {
-    .break{
-        padding: 0.5em 1.5em 1.2em 4em ;
-        margin-left: 10rem;
-        margin-right: 20rem; 
-    }
+
+@media screen and (max-width: 500px) {
+   
 }
 
 
